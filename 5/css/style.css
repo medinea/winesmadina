@@ -1,0 +1,440 @@
+.head-img {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+ ul li a{
+text-decoration: none;
+letter-spacing: 1px;
+color:black;
+font-size: 13px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+.head-text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.head-img2{
+    background-image: url(../img/hero_1.webp);
+    background-size: cover;
+    margin-left: 30px;
+    height: 800px;
+    position: relative;
+    margin-right: 30px;
+    background-color:#00000026;
+    background-blend-mode: color-burn;
+}
+.img-text{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  opacity: 4;
+}
+.img-text p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+  
+
+}
+h1{
+    color:white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.text{
+   text-align: center;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.text a{
+    color:  #930077;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.wine{
+    border: 1px solid #f3f4f5;
+    background-color: #f3f4f5;
+    width: 330px;
+    height: 350px;
+    display: inline-block;
+    
+}
+.wine-img {
+    margin-top: 100px;
+    position: absolute;
+    left: 17%;
+}
+.wine-img1 img{
+    width: 330px;
+    height: 350px;
+    text-align: center;
+}
+.wine-img1{
+    position: absolute;
+    bottom: 25%;
+}
+.wine-text{
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+}
+
+.wine-text, .wine-text2, .wine-text3 p{
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.wine-text2{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+
+.wine-text3{
+    position: absolute;
+    bottom: 0;
+    left: 73%;
+}
+
+.overlay2{
+    width: 310px;
+    height: 200px;
+    border:1px solid white;
+    background-color: white;
+    margin:0 auto;
+    bottom:7%;
+    left: 1%;
+    position: absolute;
+    display: none;
+    transition: all 2s ease;
+}
+h3{
+    font-weight: 400;
+   
+}
+.overlay2 span{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color:  #930077;
+    margin: 0  auto;
+    
+}
+.over-text{
+    text-align: center;
+}
+
+.stars i{
+  
+    font-size: 16px;
+    color: #ffbd39;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.stars{
+    text-align: center;
+}
+.over-button button{
+    border: 1px solid #930077;
+    background-color: #930077;
+    padding: 7px 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .1s;
+    
+}
+.over-button{
+    text-align: center;
+    margin-top: 15px;
+}
+button i{
+    color: white;
+    margin-right: 5px;
+}
+button:hover{
+    background-color: #60004e;
+}
+.wine:hover .overlay2{
+    display: block;
+}
+
+.person-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.col-person{
+    height: 350px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.blog{
+    width: 350px;
+    height: 350px;
+    margin-right: 25px;
+}
+.blog-img img{
+    width: 350px;
+    height: 200px;
+}
+.blog-text h3{
+    font-family: 'Cinzel', serif;
+}
+
+.blog-text span{
+    font-size: 14px;
+}
+.blog-text p{
+    color: gray;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.col-person img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #930077;
+    border-radius: 50%;   
+}
+
+.col-person .person-img{
+    text-align: center;
+}
+.person-text{
+     text-align: center;
+}
+.person-text p{
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    text-decoration: uppercase;
+    color: gray;
+    font-size: 20px;
+}
+
+.person-text span{
+    color: #930077;
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+}
+
+.foot-container{
+    display: grid;
+    justify-content: center;
+}
+.foot-icon i{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #930077;
+    background-color: #930077;
+    color: white;
+    margin-right: 15px;
+    border-radius: 50%;
+   padding-top: 10px;
+   padding-left: 10px;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+.foot-icon a:hover i{
+    background-color: black;
+    border-color: black;
+  
+}
+.foot-icon{
+   margin: 0 auto;
+}
+.foot-text{
+    text-align: center;
+    margin-top: 10%;
+}
+.foot-text p{
+    font-size: 14px;
+    color: gray;
+}
+
+.image-container{
+    background-image: url(../img/hero_2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    height: 500px;
+    background-color:#00000026;
+    background-blend-mode: color-burn;
+}
+#image  {
+    height: 600px;
+}
+
+.image-text p{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+.image-text{
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    top: 20%;
+    left: 30%;
+    
+}
+.start-img img{
+    width: 500px;
+    height: 350px;
+}
+.start-container{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+.start-text1{
+    width:400px;
+   
+}
+.start-text{
+    width: 600px;
+}
+.start-text1 p{
+    color: gray;
+   line-height: 2em;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.free-icon i{
+    color: #930077;
+    font-size: 30px;
+}
+.free-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.free-col{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    margin-top: 0;
+    font-family: 'Cinzel', serif;
+}
+.free-icon{
+    margin-right: 20px;
+}
+.free-col p{
+    color: gray;
+    line-height: 2em;
+    
+}
+
+.input-div{
+    display: flex;
+    flex-flow: row  wrap ;
+    padding:  0 20px;
+
+}
+.form-group{
+    width: 50%;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+.form-group.full{
+    width: 100%;
+}
+.form-group:nth-child(2n), .form-group.full{
+    padding-right: 0;
+}
+.form-group > input{
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    outline: none;
+}
+.form-group>input:focus{
+    border: 1px solid #930077;
+}
+.form-group label{
+    color: gray;
+    width: 100%;
+}
+
+.form-group>textarea{
+    border: 1px solid #ddd;
+    width: 100%;
+    
+    border-radius: 7px;
+    outline: none;
+    resize: none;
+    
+}
+
+#contact{
+    height: 850px;
+    background-color: #f3f4f5;
+    padding: 0;
+    margin: 0;
+}
+
+#contact h2{
+    padding: 40px;
+}
+
+.cont-button button{
+    width: 200px;
+    height: 60px;
+    padding:15px;
+    color: white;
+    background-color: #930077;
+    border: 1px solid #930077;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+    outline: none;
+    transition: .8s all ease-in-out;
+}
+
+.cont-button button:hover{
+    background-color: #60004e;
+    border-color: #60004e;
+}
